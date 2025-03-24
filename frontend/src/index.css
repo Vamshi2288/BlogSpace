@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@theme {
+  --font-primary: "Unbounded";
+}
+/* globals.css or Tailwind global styles */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color:whitesmoke;
+}
