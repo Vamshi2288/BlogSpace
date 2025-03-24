@@ -1,5 +1,4 @@
 import { atom } from "jotai";
-import { MakeBlog } from "../pages/Createblog";
 export interface blogpost {
   title: string;
   content: string;
