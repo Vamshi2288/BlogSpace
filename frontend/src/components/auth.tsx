@@ -85,7 +85,7 @@ export default function Auth({ type }: { type: "signup" | "signin" }) {
           : "Don't have an account? "}
         <button
           className="text-slate-200 hover:text-slate-500 font-semibold hover:cursor-pointer"
-          onClick={() => navigate(type === "signup" ? "/signin" : "/signup")}
+          onClick={() => navigate(type === "signup" ? "/signin" : "/")}
         >
           <u className="font-primary">
             {type === "signup" ? "Login" : "Signup"}
